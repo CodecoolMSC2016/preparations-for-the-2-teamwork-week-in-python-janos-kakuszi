@@ -1,12 +1,11 @@
 import unittest
 
-# Here's our "unit".
-
 
 def IsOdd(n):
-    return
-
-# Here's our "unit tests".
+    if n % 2 == 1:
+        return True
+    else:
+        return False
 
 
 class IsOddTests(unittest.TestCase):
